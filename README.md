@@ -27,7 +27,7 @@ You will need `python3`/`pip` to run the code; they can be downloaded via your d
 
 ## Code Usage
 
-All scripts take two positional arguments: a path to the dataset root (`input_dir`) and a CSV file to save results to (`output_csv`). The script for rebuffering ratio takes a third optional positional argument, the session duration in segments (`duration`, default 60.0). The time spent rebuffering is divided by this value to calculate the rebuffering ratio.
+All scripts take two positional arguments: a path to the dataset root (`input_dir`) and a CSV file to save results to (`output_csv`). The script for rebuffering ratio takes a third optional positional argument, the session duration in seconds (`duration`, default 60.0). The time spent rebuffering is divided by this value to calculate the rebuffering ratio.
 
 The output is a CSV file with the following columns:
  - Mean utility: ['Path', 'Mean Utility']
